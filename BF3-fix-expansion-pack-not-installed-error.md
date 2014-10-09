@@ -1,3 +1,6 @@
+Battlefield 3 Fix "Expansion Pack Not Installed" Error
+======================================================
+
 ```
 1. Log out and fully exit Origin
 2. Open your Registry Editor - Type in regedit on the Start Menu Search field and press Enter

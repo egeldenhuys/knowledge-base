@@ -1,3 +1,6 @@
+Create Windows bootable USB on Ubuntu/Linux Mint
+================================================
+
 Create a bootable Windows USB from Ubuntu through [WinUSB](http://en.congelli.eu/prog_info_winusb.html) software.
 
 Run the below commands on terminal to install WinUSB from a [PPA](https://launchpad.net/~colingille/+archive/freshlight/)

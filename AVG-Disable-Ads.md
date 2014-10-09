@@ -1,3 +1,6 @@
+AVG Disable Ads
+===============
+
 > The AVG Free version includes multiple buttons/tiles you can click
 > - some on the main interface and some on a drop-down Notification panel.
 
