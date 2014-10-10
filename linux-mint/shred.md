@@ -4,7 +4,7 @@ Shred
 ```
 To zero fill a hard drive.
 
-sudo shred -n 0 -z -v /dev/sdc1
+sudo shred -n 0 -z -v /dev/sdc
 
 where -n 0 is the number of passes, 
 -z overwrites the data with zeroes, 
