@@ -13,3 +13,5 @@ where -n 0 is the number of passes,
 -v displays the progress of the operation, 
 and /dev/sdx is the partition you are overwriting.
 ```
+
+dd can also be used.
