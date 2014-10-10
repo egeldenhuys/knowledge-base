@@ -28,3 +28,18 @@ conv=CONVS
         
 sync pads the block with nulls if an error occurs so that the offset remains the same.
 ```
+
+#### View progress of dd
+
+- See [runesvend (2008-10-11) - "[SOLVED] Progress of dd"](http://ubuntuforums.org/showthread.php?t=884093&s=d5cb069471cb3d21607415f33013433f&p=5945589#post5945589)
+
+Find dd psid: `ps -A | grep dd`
+
+Issuing the command `sudo kill -USR1 <dd psid>` makes dd output its status in the terminal where it is running
+
+#### Using the `watch` command
+
+- See [ Peter Leung (2008-06-05) - "Show progress during dd copy" - Linux Commando](http://linuxcommando.blogspot.com/2008/06/show-progress-during-dd-copy.html)
+
+`watch -n 10 kill -USR1 <dd psid>
+
