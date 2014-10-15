@@ -55,4 +55,35 @@ file synchronization, personal cloud, and client software.
 
 Conky is a free, light-weight system monitor for X, that displays any information on your desktop.
 
-- See [Setting Up Conky](https://help.ubuntu.com/community/SettingUpConky) for setup instructions
+### Installation
+
+`sudo apt-get install conky-all`
+
+### Running & Configuration
+
+To run conky, open a terminal and type: 
+
+```
+conky -c <file> &
+
+-c <file> - Path to conky config
+&         - The `&` makes the command run in the background.
+```
+
+Example: `conky -c ~/.conky/conkymain`
+
+### Start Conky on startup
+
+`System Settings > Startup Programs > Add`
+
+```
+Name: Conky
+Command: conky -c <config-file>
+Comment:
+Delay: 30 seconds
+```
+
+- See ["Setting Up Conky" - ubuntu.com (Retrieved 2014-10-15)]
+(https://help.ubuntu.com/community/SettingUpConky) for setup instructions
+- See ["What does “&” at the end of a linux command mean?" - stackoverflow.com]
+(https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean)
