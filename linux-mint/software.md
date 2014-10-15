@@ -5,7 +5,7 @@ Software
 
 Vim is a useful console based text editor.
 
-`sudo apt-get install vim`
+Install `vim` and `vim-gtk` via synaptic
 
 ## Tor
 
@@ -44,6 +44,8 @@ has application for both stand-alone systems and multi-user networks.
 
 
 ## hashdeep
+
+Install `md5deep` via Synaptic
 
 [hashdeep](http://md5deep.sourceforge.net/) is a program to compute, match, and audit hashsets.
 
