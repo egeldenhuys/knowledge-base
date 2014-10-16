@@ -78,9 +78,9 @@ Example: `conky -c ~/.conky/conkymain`
 
 ```
 Name: Conky
-Command: conky -c <config-file>
+Command: conky -c /home/evert/.conky/conkymain
 Comment:
-Delay: 30 seconds
+Delay: 0 seconds
 ```
 
 - See ["Setting Up Conky" - ubuntu.com (Retrieved 2014-10-15)]
