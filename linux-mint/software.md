@@ -2,12 +2,18 @@ Software
 ========
 
 ## Vim
+[www.vim.org](http://www.vim.org/)
 
 Vim is a useful console based text editor.
 
-Install `vim` and `vim-gtk` via synaptic
+`sudo apt-get install vim`
+
+Optionally also install `vim-gtk` for clipboard
 
 ## Tor
+[https://www.torproject.org/](https://www.torproject.org/)
+
+[Download](https://www.torproject.org/download/download-easy.html.en)
 
 [Tor](https://www.torproject.org/) is free software and an open network that helps you 
 defend against traffic analysis, a form of network surveillance 
@@ -27,9 +33,9 @@ has application for both stand-alone systems and multi-user networks.
 
 ## md5deep/hashedeep
 
-Install `md5deep` via Synaptic
+`sudo apt-get install md5deep`
 
-[hashdeep](http://md5deep.sourceforge.net/) is a program to compute, match, and audit hashsets.
+[md5deep/hashdeep](http://md5deep.sourceforge.net/) is a program to compute, match, and audit hashsets.
 
 
 ## GnuPG
@@ -55,11 +61,7 @@ file synchronization, personal cloud, and client software.
 
 Conky is a free, light-weight system monitor for X, that displays any information on your desktop.
 
-### Installation
-
 `sudo apt-get install conky-all`
-
-### Running & Configuration
 
 To run conky, open a terminal and type: 
 
