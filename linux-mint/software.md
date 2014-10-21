@@ -76,7 +76,7 @@ conky -c <file> &
 
 Example: `conky -c ~/.conky/conkymain`
 
-### Start Conky on startup
+##### Start Conky on startup
 
 `System Settings > Startup Programs > Add`
 
