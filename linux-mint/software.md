@@ -93,3 +93,18 @@ Delay: 0 seconds
 (https://help.ubuntu.com/community/SettingUpConky) for setup instructions
 - See ["What does “&” at the end of a linux command mean?" - stackoverflow.com]
 (https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean)
+
+## Skype
+
+'sudo apt-get install skype'
+
+##### Start Conky on startup
+
+`System Settings > Startup Programs > Add`
+
+```
+Name: Skype
+Command: skype
+Comment:
+Delay: 5 seconds
+```
