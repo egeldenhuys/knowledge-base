@@ -67,6 +67,8 @@ Conky is a free, light-weight system monitor for X, that displays any informatio
 
 To run conky, open a terminal and type: 
 
+[Conky Config](https://raw.githubusercontent.com/egeldenhuys/knowledge-base/master/linux-mint/conky-config)
+
 ```
 conky -c <file> &
 
