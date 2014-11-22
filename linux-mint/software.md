@@ -108,3 +108,6 @@ Command: skype
 Comment:
 Delay: 5 seconds
 ```
+## GParted
+
+`sudo apt-get install gparted`
