@@ -1,32 +1,9 @@
 Links
 =====
 
-- https://support.steampowered.com/kb_article.php?ref=7418-YUBN-8129
-- http://www.bleepingcomputer.com/tutorials/enable-the-f8-key-in-windows-8/
-- http://forums.steampowered.com/forums/showthread.php?t=2230136
-- http://gaming.stackexchange.com/questions/31193/how-can-i-change-the-install-directory-of-games-in-origin
-- https://support.steampowered.com/kb_article.php?ref=7710-tdlc-0426
 - http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
-- http://stackoverflow.com/questions/1620018/copy-all-the-lines-to-clipboard
-- https://support.steampowered.com/kb_article.php?ref=7418-YUBN-8129
-- http://www.bleepingcomputer.com/tutorials/enable-the-f8-key-in-windows-8/
-- http://forums.steampowered.com/forums/showthread.php?t=2230136
-- http://gaming.stackexchange.com/questions/31193/how-can-i-change-the-install-directory-of-games-in-origin
-- https://support.steampowered.com/kb_article.php?ref=7710-tdlc-0426
-- http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
-- http://stackoverflow.com/questions/1620018/copy-all-the-lines-to-clipboard
-- https://answers.microsoft.com/en-us/windows/forum/windows_7-security/how-to-change-user-name-in-windows-7-professional/d95ddaa7-4235-454e-83d6-77232207c7e2
 - http://www.turnkeylinux.org/forum/support/20131011/samba-shares-have-root-owner-no-one-else-can-write-them
-- http://www.unix.com/shell-programming-and-scripting/52617-find-files-size-0-within-directory.html
-- http://www.thegeekstuff.com/2010/09/rsync-command-examples/
-- http://forums.linuxmint.com/viewtopic.php?f=110&t=23169
-- http://how-to.linuxcareer.com/guide-to-rsnapshot-and-incremental-backups-on-linux
-- http://www.adminschoice.com/crontab-quick-reference
-- http://www.liquidweb.com/kb/using-rsync-to-transfer-and-synchronize-local-and-remote-systems/
 - https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
-- https://help.github.com/articles/caching-your-github-password-in-git/
-- http://stackoverflow.com/questions/11140483/how-to-get-list-of-files-with-a-specific-extension-in-a-given-folder
-- http://sourceforge.net/projects/boost/files/boost/1.57.0/
 - http://www.tutorialspoint.com/cplusplus/index.htm
 - http://www.fredosaurus.com/notes-cpp/newdelete/50dynamalloc.html
 - http://www.tutorialspoint.com/cprogramming/c_return_arrays_from_function.htm
