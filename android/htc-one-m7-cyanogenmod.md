@@ -10,12 +10,12 @@ Instructions for installing CyanogenMod 11 on the HTC One m7
 - [X] 3. Backup using `adb`
 - [X] 4. Clean phone storage
 - [X] 5. Backup again with `adb`
-- [ ] 6. Unlock Bootloader
-- [ ] 7. Place required files on phone storage
-- [ ] 8. Install ClockworkMod Recovery using `fastboot`
-- [ ] 9. Root device
-- [ ] 10. Verify device is Rooted
-- [ ] 11. Restore cleaned backup
-- [ ] 12. Recover WiFi passwords
+- [X] 6. Unlock Bootloader
+- [X] 7. Place required files on phone storage
+- [X] 8. Install ClockworkMod Recovery using `fastboot`
+- [X] 9. Root device
+- [X] 10. Verify device is Rooted
+- [X] 11. Restore cleaned backup
+- [X] 12. Recover WiFi passwords
 - [ ] 13. Create backup of stock ROM
 - [ ] 14. Install CyanogenMod
