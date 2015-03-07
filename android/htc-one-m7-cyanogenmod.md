@@ -17,5 +17,5 @@ Instructions for installing CyanogenMod 11 on the HTC One m7
 - [X] 10. Verify device is Rooted
 - [X] 11. Restore cleaned backup
 - [X] 12. Recover WiFi passwords
-- [ ] 13. Create backup of stock ROM
+- [X] 13. Create backup of stock ROM
 - [ ] 14. Install CyanogenMod
