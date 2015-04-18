@@ -7,7 +7,7 @@ This document describes the steps taken to setup a new Linux Mint Installation.
 1. Install updates using `Mint Update Manager`
 
 ### Dropbox
-1. Copy Dropbox folder. `rsync -a Dropbox ~/ --progress`
+1. Copy Dropbox folder. `dropbox-backups/2015-04-18 $ rsync -a Dropbox ~/ --progress`
 1. Install and configure `nemo-dropbox`. Merge with existing Dropbox folder
 
 ### Theme
@@ -61,3 +61,19 @@ This document describes the steps taken to setup a new Linux Mint Installation.
 
 ### GNU ddrescue
 1. `sudo apt-get install gddrescue`
+
+### Git
+1. `sudo apt-get install git`
+
+### Firefox Add-ons
+- Tab Mix Plus
+- HTTPS Everywhere
+- 
+### All
+
+Does not include the following packages:
+- skype
+- nemo-dropbox
+- virtualbox-nonfree
+
+`sudo apt-get install vim vim-gtk unetbootin conky-all gparted wine x11vnc codeblocks g++ md5deep clamav wireshark zenmap gddrescue`
