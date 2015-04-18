@@ -59,3 +59,5 @@ This document describes the steps taken to setup a new Linux Mint Installation.
 ### Zenmap/Nmap
 1. `sudo apt-get install zenmap`
 
+### GNU ddrescue
+1. `sudo apt-get install gddrescue`
