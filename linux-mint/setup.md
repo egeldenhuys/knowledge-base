@@ -76,4 +76,4 @@ Does not include the following packages:
 - nemo-dropbox
 - virtualbox-nonfree
 
-`sudo apt-get install vim vim-gtk unetbootin conky-all gparted wine x11vnc codeblocks g++ md5deep clamav wireshark zenmap gddrescue`
+`sudo apt-get install vim vim-gtk unetbootin conky-all gparted wine x11vnc codeblocks g++ md5deep clamav wireshark zenmap gddrescue git`
