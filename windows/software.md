@@ -16,8 +16,8 @@ https://www.dropbox.com/
 ### Malwarebytes Anti-Malware
 https://www.malwarebytes.org/
 
-### AVG Free Antivirus
-http://free.avg.com/au-en/homepage
+### Avira Anti Virus Free
+https://www.avira.com/en/avira-free-antivirus
 
 ### Notepad++
 http://notepad-plus-plus.org/
@@ -30,3 +30,6 @@ http://technet.microsoft.com/en-au/sysinternals/bb896653.aspx
 
 ### HWiNFO
 http://www.hwinfo.com/download.php
+
+### Sandboxie
+http://www.sandboxie.com/
