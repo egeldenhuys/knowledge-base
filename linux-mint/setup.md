@@ -68,7 +68,7 @@ This document describes the steps taken to setup a new Linux Mint Installation.
 ### Firefox Add-ons
 - Tab Mix Plus
 - HTTPS Everywhere
-- 
+
 ### All
 
 Does not include the following packages:
