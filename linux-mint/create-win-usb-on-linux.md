@@ -11,7 +11,7 @@ Create bootable Windows USB on Linux
     1. Type p and Enter to print the current partition table. I do this out of habit.
     2. Delete all the current partitions by typing d then Enter for each partition.
     3. Type n and Enter, then type p and Enter, then type 1 and Enter three times to create one new primary partition that uses all available space.
-    4. Type t and Enter (Partition 1 is selected because itâ€™s the only partition), then type 7 and Enter to change the type to HPFS/NTFS/exFAT.
+    4. Type t and Enter (Partition 1 is selected because it's the only partition), then type 7 and Enter to change the type to HPFS/NTFS/exFAT.
     5. Type a and Enter, then type 1 and Enter to turn on the Boot flag.
     6. To verify everything worked, type p and Enter and make sure the Boot column has an * set and the Id column is set to 7.
     7. Type w and Enter to write the changes.
