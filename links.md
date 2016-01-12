@@ -1,6 +1,10 @@
 Links
 =====
 
+Contains links to solutions that are yet to be added to the knowledge base.
+
+----
+
 - http://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 - http://www.turnkeylinux.org/forum/support/20131011/samba-shares-have-root-owner-no-one-else-can-write-them
 - https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
