@@ -13,7 +13,7 @@ x11vnc -storepasswd ~/.x11vnc/passwd
 `touch ~./x11vnc/x11vnc.log`
 
 ##### Starting x11vnc on login
-`x11vnc -nap -wait 50 -noxdamage -rfbauth ~./x11vnc/passwd -display :0 -forever -o /var/log/x11vnc.log -bg`
+`x11vnc -nap -wait 50 -noxdamage -rfbauth /home/evert/.x11vnc/passwd -display :0 -forever -o /home/evert/.x11vnc/x11vnc.log -bg`
 
 #### Source
 https://wiki.archlinux.org/index.php/x11vnc
