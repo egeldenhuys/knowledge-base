@@ -26,6 +26,9 @@ has an * set and the Id column is set to 7.
     7. Type w and Enter to write the changes.
 ```
 
+### Unmount
+`sudo umount /dev/sdX1`
+
 ### Format the New Partition on the USB Drive as NTFS
 `sudo mkfs.ntfs -f /dev/sdX1`
 
