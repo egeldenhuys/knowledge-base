@@ -52,6 +52,7 @@ This document describes the steps taken to setup a new Linux Mint Installation.
 ### ClamAV
 1. `sudo apt-get install clamav`
 1. `sudo freshclam`
+3. `sudo dpkg-reconfigure clamav-freshclam` to change to manual update mode
 
 ### Wireshark
 1. `sudo apt-get install wireshark`
