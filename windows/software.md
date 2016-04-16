@@ -15,6 +15,9 @@ http://technet.microsoft.com/en-au/sysinternals/bb896653.aspx
 #### CCleaner
 https://www.piriform.com/ccleaner/download
 
+#### WhatInStartup
+http://www.nirsoft.net/utils/what_run_in_startup.html
+
 ## General
 
 #### 7 Zip
