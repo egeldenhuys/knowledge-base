@@ -9,3 +9,6 @@ Install Archlinux and set it up to replace Linux Mint using [Archlinux Beginners
 
 #### 2. [Create BIOS and UEFI Bootable USB](https://wiki.archlinux.org/index.php/USB_flash_installation_media#Using_dd)
 `# dd bs=4M if=/path/to/archlinux.iso of=/dev/sdx status=progress && sync`
+
+
+**Insufficient time to learn a new environment. Sticking with Mint...**
