@@ -3,6 +3,11 @@ Setting up Linux Mint
 
 This document describes the steps taken to set up a new Linux Mint Installation.
 
+## Graphics Drivers
+On first boot install the graphics drivers to avoid the [black screen] problem.
+
+- Install proprietary Radeon `fglrx` graphics drivers using Driver Manager
+
 ## Install Packages
 
 Install updates using `Mint Update Manager`
@@ -35,3 +40,5 @@ Install updates using `Mint Update Manager`
 ### Theme
 - Change theme to `Cinnamon`
 - Change Background
+
+[black screen]:/black-screen-after-install.md
