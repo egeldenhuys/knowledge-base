@@ -10,18 +10,18 @@ Create Linux Mint Live USB
 
 ### Signing key for Linux Mint 18
 ```
-Key ID                    4096R/A25BAE09 2016-06-07
-Fingerprint	           27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09
-UID	                   Linux Mint ISO Signing Key
-Import from Keyserver	 gpg --recv-key A25BAE09
+Key ID                  4096R/A25BAE09 2016-06-07
+Fingerprint             27DE B156 44C6 B3CF 3BD7 D291 300F 846B A25B AE09
+UID                     Linux Mint ISO Signing Key
+Import from Keyserver   gpg --recv-key A25BAE09
 ```
 
 ### Signing key for previous releases
 ```
-Key ID	                 1024D/0FF405B2 2009-04-29
-Fingerprint	            E1A3 8B8F 1446 75D0 60EA 666F 3EE6 7F3D 0FF4 05B2
-UID	                    Clement Lefebvre (Linux Mint Package Repository v1)
-Import from Keyserver	  gpg --recv-key 0FF405B2
+Key ID                  1024D/0FF405B2 2009-04-29
+Fingerprint             E1A3 8B8F 1446 75D0 60EA 666F 3EE6 7F3D 0FF4 05B2
+UID                     Clement Lefebvre (Linux Mint Package Repository v1)
+Import from Keyserver   gpg --recv-key 0FF405B2
 ```
 
 ### Steps to verify an ISO image
