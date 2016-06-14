@@ -21,7 +21,7 @@ Self Hosted Dropbox Alternative
 - [git-annex]
 - [git-annex assistant]
 
-[SSH File Transfer Protocol]:(https://askubuntu.com/questions/420652/how-to-setup-a-restricted-sftp-server-on-ubuntu)
-[bup]:(https://github.com/bup/bup)
-[git-annex]:(https://git-annex.branchable.com/)
-[git-annex assistant]:(https://git-annex.branchable.com/assistant/)
+[SSH File Transfer Protocol]:https://askubuntu.com/questions/420652/how-to-setup-a-restricted-sftp-server-on-ubuntu
+[bup]:https://github.com/bup/bup
+[git-annex]:https://git-annex.branchable.com/
+[git-annex assistant]:https://git-annex.branchable.com/assistant/
