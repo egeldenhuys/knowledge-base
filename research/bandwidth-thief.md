@@ -27,7 +27,7 @@ We will do this by collecting network statistics
     - **Prioritize** certain connections
         - Gaming
         - Web surfing
-- <strike>**Block** certain **host domains** and IP addresses</strike>
+- ~~**Block** certain **host domains** and IP addresses~~
     - If each client gets its own data quota, I guess they can do with it as they wish.
 - **Limit** bandwidth to certain hosts
     - An unknown client is trying to access porngrub.net, Limit their speed
@@ -51,7 +51,10 @@ Which becomes:
 | 192.168.1.103 | Dropbox.com | 104 MiB | 1.87 GiB
 
 ## Current Plan
+~~pfsense~~
+
 `LAN + WiFi -> Access Point -> Linux Machine -> Modem Router -> Internet`
+
 The Linux machine will simply pass the traffic along, while collecting statistics
 
 ### Research Buffer
@@ -82,7 +85,22 @@ The Linux machine will simply pass the traffic along, while collecting statistic
 - wireshark
 
 ### Links
-Some links related to traffic management and pfsense:
+
+#### iptables, routing on linux
+- http://www.revsys.com/writings/quicktips/nat.html
+- http://www.karlrupp.net/en/computer/nat_tutorial
+- https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Security_Guide/s1-firewall-ipt-fwd.html
+- https://serverfault.com/questions/431593/iptables-forwarding-between-two-interface
+- https://serverfault.com/questions/267580/linux-routing-traffic-between-two-networks-with-iptables
+- https://askubuntu.com/questions/95199/two-network-cards-and-ip-forwarding
+- http://www.tecmint.com/setup-linux-as-router/
+- http://ubuntuforums.org/showthread.php?t=2208329
+- https://www.digitalocean.com/community/tutorials/how-to-forward-ports-through-a-linux-gateway-with-iptables
+- https://linuxpoison.blogspot.co.za/2009/02/how-to-configure-linux-as-internet.html
+- http://www.linuxnix.com/how-to-implement-ip-forwarding-in-linux/
+- http://www.tldp.org/HOWTO/IP-Masquerade-HOWTO/ipmasq-background2.5.html
+
+#### pfsense
 - http://hubpages.com/technology/Monitoring-Internet-Usage-With-LightSquid-and-pfSense
 - https://elijahpaul.co.uk/monitoring-pfsense-2-1-logs-using-elk-logstash-kibana-elasticsearch/
 - https://forum.opnsense.org/index.php?topic=637.0
@@ -104,6 +122,9 @@ Some links related to traffic management and pfsense:
 ----
 
 ## Log
+
+### 2016-06-16
+
 ### 2016-06-15
 
 - Create bandwidth-monitor program for displaying bandwidth throughput on LAN -> Internet (No WiFi!)
