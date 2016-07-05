@@ -8,10 +8,10 @@ Create a share that only the specified user account can access.
 - Samba config: `/etc/samba/smb.conf'
 
 #### 1. Create new user account
-`$ useradd --system --no-create-home --shell /sbin/nologin <user>`
+`$ sudo useradd --system --no-create-home --shell /sbin/nologin <user>`
 
 #### 2. Add the user to the samba database
-`$ smbpasswd -a <user>`
+`$ sudo smbpasswd -a <user>`
 
 #### 3. Enable User-Level Security Mode,Encrypted passwords
 ```
