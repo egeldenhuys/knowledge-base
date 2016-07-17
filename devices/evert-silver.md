@@ -1,6 +1,7 @@
 Model: NP305V5A-T04AU
 
-## Windows Drivers:
+## Drivers
+### Windows
 - http://www.samsung.com/au/support/model/NP305V5A-T04AU
     - LAN_7.44.421.2011
     - QCA_WLAN_Driver_1.0.0.1
@@ -16,7 +17,7 @@ Model: NP305V5A-T04AU
  - SMBus Driver
  - NO Eratta fix
 
-### Bios update
+## Bios update
 bios update using samsung tool:
 - 07PW -> 09PW
 
