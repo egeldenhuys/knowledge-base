@@ -2,8 +2,8 @@ Black Screen after Installing Linux Mint
 ========================================
 
 ## Problem
-- Black screen on boot
 - Fresh install of Linux Mint 17.3 on [laptop]
+- Black screen on boot
 
 ## Solution
 - Hold `SHIFT` on startup to get to the Grub menu [^1].
@@ -13,6 +13,6 @@ Black Screen after Installing Linux Mint
     - In my case Linux Mint started in "Compatibility Mode" using the CPU for rendering.
 - Install proprietary Radeon `fglrx` graphics drivers using Driver Manager
 
-[laptop]:/laptop.md
+[laptop]:/research/Laptop-[Samsung].md
 [^1]:https://askubuntu.com/questions/16042/how-to-get-to-the-grub-menu-at-boot-time
 [^2]:https://community.linuxmint.com/tutorial/view/842
