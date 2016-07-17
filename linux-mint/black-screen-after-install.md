@@ -13,6 +13,6 @@ Black Screen after Installing Linux Mint
     - In my case Linux Mint started in "Compatibility Mode" using the CPU for rendering.
 - Install proprietary Radeon `fglrx` graphics drivers using Driver Manager
 
-[laptop]:/research/Laptop-[Samsung].md
+[laptop]:/devices/evert-silver.md
 [^1]:https://askubuntu.com/questions/16042/how-to-get-to-the-grub-menu-at-boot-time
 [^2]:https://community.linuxmint.com/tutorial/view/842

@@ -1,6 +1,6 @@
-NP305V5A-T04AU
+Model: NP305V5A-T04AU
 
-Drivers:
+## Windows Drivers:
 - http://www.samsung.com/au/support/model/NP305V5A-T04AU
     - LAN_7.44.421.2011
     - QCA_WLAN_Driver_1.0.0.1
@@ -16,8 +16,11 @@ Drivers:
  - SMBus Driver
  - NO Eratta fix
 
+### Bios update
 bios update using samsung tool:
-07PW -> 09PW
+- 07PW -> 09PW
+
+## Hardware info
 ```
 Computer:      Samsung 305V4A/305V5A/3415VA
 CPU:           AMD A8-3510MX (LN1-B0 (Llano))
