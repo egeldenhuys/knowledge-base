@@ -22,10 +22,8 @@ To produce a smaller output file change the dpi settings in advanced mode:
 
 
 ## Print
-TODO:
-- Install [Printer Driver]
-- Print test page
-
+- Install [Printer Driver] and follow the prompts
+- Printer will now show up under Printers
 
 [Canon PIXMA MG2440 Drivers]:https://www.canon-europe.com/support/consumer_products/products/fax__multifunctionals/inkjet/pixma_mg_series/mg2440.aspx?type=drivers&language=EN&os=Linux%20(64-bit)
 
