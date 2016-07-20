@@ -1,6 +1,8 @@
 Scan HDD for Bad Blocks
 =======================
 
+Boot Linux Mint from a LiveUSB before running the following commands
+
 ## read-write Test (non-destructive)
 
 Scan HDD for bad blocks and output them to a file:
