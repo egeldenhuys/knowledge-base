@@ -5,7 +5,7 @@ Black Screen on Startup
 Black screen on startup.
 
 ## Solution
-Open Display settings and select Apply.
+Open Display settings and select Apply. (Seems to only work with a dual monitor setup)
 
 ## Process
 Wait for computer to fully boot, then sent the following keys:
