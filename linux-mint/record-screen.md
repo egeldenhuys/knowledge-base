@@ -5,7 +5,7 @@ Record Screen
 
 ----
 
-[Open Broadcaster Softare:](https://obsproject.com/index)
+[Open Broadcaster Software:](https://obsproject.com/index)
 ```
 sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
 sudo apt-get update && sudo apt-get install ffmpeg
