@@ -1,4 +1,4 @@
 Links
 =====
 
-- http://askubuntu.com/questions/207447/how-to-reduce-the-size-of-a-pdf-file
+- https://tuxdiary.com/2015/04/07/compress-pdf-files-linux/
