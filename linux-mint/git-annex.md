@@ -29,7 +29,7 @@ git-annex
 
 ### Configure Dropbox as special remote
 - Configure Dropbox as a remote for the repository
-    - `git annex initremote <git-annex_remote_name> type=external externaltype=rclone target=<rclone_remote_name> prefix=git-annex chunk-50MiB encryption=shared mac=HMACSHA512 rclone_layout=lower`
+    - `git annex initremote <git-annex_remote_name> type=external externaltype=rclone target=<rclone_remote_name> prefix=git-annex/<repo_name> chunk=1MiB encryption=shared mac=HMACSHA512 rclone_layout=lower`
     - The initremote command calls out to GPG and can hang if a machine has insufficient entropy. To debug issues, use the `--debug` flag, i.e. `git-annex initremote --debug`
 - Dropbox should now be configured as a remote!
 
@@ -40,7 +40,7 @@ git-annex
 ### Setup public Dropbox special remote
     - See [publishing your files to the public](https://git-annex.branchable.com/tips/publishing_your_files_to_the_public/)
     - Set remote for private push access:
-        - `git annex initremote <git-annex_remote_name> type=external externaltype=rclone target=<rclone_remote_name> prefix=Public/git-annex/<repo_name> chunk-50MiB encryption=none mac=HMACSHA512 rclone_layout=nodir`
+        - `git annex initremote <git-annex_remote_name> type=external externaltype=rclone target=<rclone_remote_name> prefix=Public/git-annex/<repo_name> chunk=1MiB encryption=none mac=HMACSHA512 rclone_layout=nodir`
     - Note that we used `rclone_layout=nodir`. This is so we can easily access all files in the public folder.
     - Once you have the special remote set up on your laptop, you can send files to it.
     - **TODO: Make sure git-annex does not store sensitive information about Dropbox**
