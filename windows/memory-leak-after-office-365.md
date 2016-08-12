@@ -17,4 +17,8 @@ Memory leak after installing Office 365
     - Install hotfix
         - Best kill nsetsvcs while installing hotfix. WE NEED MOAR RAM!
         - Put toaster in microwave to speed up the process
-    - **TODO: Wait for chicken to toast, and report progress**
+    - Microsoft fix tool did not work. Did not even do anything other than
+    progress bar for 14 hours.
+
+## Solution
+- Linux
