@@ -11,7 +11,7 @@ Samba User Authentication
 
 ### Create user and configure Samba
 
-- Samba config: `/etc/samba/smb.conf'
+- Samba config: `/etc/samba/smb.conf`
 
 #### 1. Create new user account
 ```
