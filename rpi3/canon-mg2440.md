@@ -21,4 +21,5 @@ add Allow @local to cupsd/conf?
 
 See
 - http://www.penguintutor.com/linux/printing-cups
-
+- https://wiki.archlinux.org/index.php/CUPS/Troubleshooting#Printers_are_not_present_in_the_print_dialog_for_GTK3_applications
+- https://wiki.archlinux.org/index.php/fonts#Font_packages
