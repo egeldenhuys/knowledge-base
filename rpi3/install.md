@@ -40,19 +40,21 @@ bsdtar -xkpf ArchLinuxARM-rpi-2-latest.tar.gz -C tmpDir
 
 6. Copy the boot filesystem
 ```
-rsync --progress -avh --bwlimit=1000 tmpDir/boot/* boot/
+rsync --progress -avh tmpDir/boot/* boot/
 rm -fr tmpDir/boot/*
 ```
 
 7. Copy the root filesystem
 ```
-rsync --progress -avh --bwlimit=1000 tmpDir/ root/
+rsync --progress -avh tmpDir/ root/
 ```
 
 8. Run `sync` to flush the changes to the SD Card
 
 ## Troubleshoting
 ### SD Card suddenly becomes Read-Only
+If this happens give up and use another machine with a SD Card Reader.
+
 ```
 rsync: write failed on "/home/evert/root/usr/share/locale/sl/LC_MESSAGES/coreutils.mo": Read-only file system (30)
 rsync error: error in file IO (code 11) at receiver.c(389) [receiver=3.1.0]
@@ -77,7 +79,7 @@ rsync error: error in file IO (code 11) at receiver.c(389) [receiver=3.1.0]
 
 When this happens, force shutdown and restart the installtion steps. Try a different computer with a SD card reader.
 
-### Some more dmesg output
+#### Some more dmesg output
 ```
 [  440.234169] blk_update_request: I/O error, dev sdb, sector 34105
 [  560.071358] usb 1-3: reset high-speed USB device number 6 using ehci-pci
