@@ -19,3 +19,7 @@ rm -fr tmpDir/boot/*
 rsync --progress -v -h tmpDir/ root/
 sync
 ```
+
+
+## Notes
+Incase of SD Card lockup, reboot pc.
