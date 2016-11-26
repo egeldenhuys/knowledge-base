@@ -51,5 +51,7 @@ rsync --progress -v -h tmpDir/ root/
 
 8. Run `sync` to flush the changes to the SD Card
 
-## Notes
-Incase of SD Card lockup, force shutdown and restart the installation process
+## Troubleshoting
+### SD Card suddenly becomes Read-Only
+- Check `dmesg | tail`
+- Restart the installation steps
