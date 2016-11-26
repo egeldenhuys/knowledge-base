@@ -22,4 +22,4 @@ sync
 
 
 ## Notes
-Incase of SD Card lockup, reboot pc.
+Incase of SD Card lockup, force shutdown and restart the installation process
