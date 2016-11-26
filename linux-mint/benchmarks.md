@@ -15,6 +15,15 @@ TODO: Get hardware info for different machines
 - [GFXBench 4.0]
     - No tests were supported
 
+### evert-silver (Mint 17.3)
+#### xserver-xorg-video-ati (1:7.3.0-1ubuntu3.1)
+- GFXBench 4.0
+    - No tests were supported
+    
+#### fglrx (2:15.201-ubuntu0.14.04.1)
+- GFXBench 4.0
+   - ...
+    
 ### evert-silver (Win 7)
 - [GFXBench 4.0]
 
