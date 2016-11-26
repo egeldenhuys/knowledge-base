@@ -53,8 +53,8 @@ rsync --progress -avh tmpDir/ root/
 
 ## Troubleshoting
 ### SD Card suddenly becomes Read-Only
-If this happens give up and use another machine with a SD Card Reader.
-
+- If this happens give up and use another machine with a SD Card Reader.
+- Device `evert-silvert` does not have a working card reader or is not compatible with linux. Use `evert-green` instead.
 ```
 rsync: write failed on "/home/evert/root/usr/share/locale/sl/LC_MESSAGES/coreutils.mo": Read-only file system (30)
 rsync error: error in file IO (code 11) at receiver.c(389) [receiver=3.1.0]
