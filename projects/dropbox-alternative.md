@@ -108,3 +108,9 @@
 Currently Syncthing comes closest to solving the problem, however the following issues need to be addressed:
 - Access files without downloading (Web interface / SSHFS / SFTP)
 - Share files with the public (HTTPS)
+
+## Implementation of Features
+### Sharing files with the public
+- Apache
+- Let's Encrypt (For SSL)
+- https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-14-04
