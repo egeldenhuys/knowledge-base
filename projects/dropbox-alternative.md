@@ -21,6 +21,36 @@
 - Complete file version history
 - Able to use Borg to take encrypted snapshots and store them in the cloud
 
+## Proposed Solution
+Store plaintext files locally, and push encrypted borg repo into cloud.
+
+- SFTP for access from android
+- Samba or SSHFS for local network access
+- Borg to create encrypted backups
+- Rclone to push data into the cloud
+- Rsync for large file transfers
+- cron for automatic backups and transfers
+- Apache/FTP for file sharing
+
+Only feature not covered is complete file version history. We have daily snapshots but not intermediate file versions.
+
+### Check list
+## Requirements
+- ~~Delta transfers~~
+- ~~Direct access to files~~
+- ~~Able to manage 300 GB (300K+ files) of data~~
+- ~~Free~~
+- ~~Open Source~~
+- ~~Selective sync for offline access~~
+- Download/Upload files using web interface - Want to collect data from public machines
+- ~~Access files stored on server through internet~~
+- ~~Share files with the public~~
+- ~~Access files from Android, Linux and Windows~~
+- ~~Hosted on RPI 3~~
+- ~~Files locally hosted~~
+- Complete file version history
+- ~~Able to use Borg to take encrypted snapshots and store them in the cloud~~
+
 ## Software Reviews
 
 ### Dropbox
