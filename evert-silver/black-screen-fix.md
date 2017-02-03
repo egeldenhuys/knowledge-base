@@ -1,3 +1,13 @@
+# Black Screen fix for AMD Radeon HD 6xxx M/G on Linux
+
+## Problem
+Black screen on startup when the proprietary drivers are not installed.
+
+## Solution
+- Change resolution on startup
+
+### Implementation
+
 #### fix.sh
 ```
 #!/bin/bash
@@ -11,7 +21,7 @@ echo Fix at $(date) >> /home/evert/fix_log.txt
 
 #### /etc/rc.local
 ```
-[...]
+...
 
 sh /evert/home/fix.sh
 exit 0
