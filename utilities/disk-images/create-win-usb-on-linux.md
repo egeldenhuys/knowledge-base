@@ -3,11 +3,19 @@ Create bootable Windows USB on Linux
 
 - **Source:** ["Create a Bootable Windows 7 USB Drive in Linux" - thornelabs.net](http://thornelabs.net/2013/06/10/create-a-bootable-windows-7-usb-drive-in-linux.html)
 
+https://wycd.net/posts/2015-03-10-creating-a-bootable-windows-10-usb-drive-on-linux.html
+
+RESULT: Unknown
+
+----
+
 1. Format as NTFS. Set bootable flag
     - `sudo mkfs.ntfs -f /dev/sdX1`
 2. `sudo ms-sys -7 /dev/sdX`
 3. Mount ISO `sudo mount -o loop <iso> <dir>`
 4. Copy files from ISO to USB
+
+RESULT: Fail for windows 8.1
 
 ----
 
